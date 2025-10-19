@@ -1,0 +1,109 @@
+/* ----- ESTILOS GENERALES ----- */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff9fb;
+  color: #333;
+  line-height: 1.6;
+}
+header {
+  background: linear-gradient(90deg, #ff7cbf, #ffc94d, #7cf8a9);
+  padding: 20px 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header h1 {
+  font-size: 28px;
+  color: #fff;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+nav a:hover { color: #333; }
+/* ----- SECCIÓN PRINCIPAL ----- */
+.hero {
+  background-image: url('https://images.unsplash.com/photo-1606312618560-3ef2f7e2b93d?auto=format&fit=crop&w=1400&q=80');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+.hero h2 {
+  font-size: 42px;
+  background: rgba(0,0,0,0.5);
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+/* ----- SECCIONES ----- */
+section {
+  padding: 60px 10%;
+  text-align: center;
+}
+section h2 {
+  color: #ff7cbf;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+.productos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.card {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width: 280px;
+  transition: transform 0.3s;
+}
+.card:hover { transform: scale(1.05); }
+.card img {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+.card h3 { margin: 10px 0; color: #333; }
+.card p { padding: 0 15px 15px; }
+/* ----- CONTACTO ----- */
+.contacto form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+button {
+  background: #ff7cbf;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+button:hover { background: #ff9bcd; }
+/* ----- FOOTER ----- */
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
+footer a {
+  color: #ff7cbf;
+  text-decoration: none;
+}
