@@ -1,1 +1,0 @@
-console.log('Sitio de Colori Cakes cargado correctamente.');
